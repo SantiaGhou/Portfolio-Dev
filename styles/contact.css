@@ -1,0 +1,49 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 128px;
+    background-image: url(/assets/bg/Background_Contacts.png);
+}
+
+#cont-header h5{
+    color: #BB72E9;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+#cont-header h3{
+    color: var(--gray-600);
+    font-size: 24px;
+    margin-bottom: 8px;
+
+}
+#cont-header p{
+    color: var(--gray-400);
+    margin-bottom: 48px;
+}
+.SocialButton {
+    display: flex; 
+    padding:15px;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: var(--gray-100);
+    border-radius: 15px;
+    width: 400px;
+    height: 68px;
+    margin-bottom: 48px;
+    transition: 0.2s;
+}
+.SocialButton a{
+    display: flex; 
+    text-decoration: none;
+    color: var(--gray-500);
+    align-items: center; 
+    justify-content: center;
+
+}
+
+
+.SocialButton:hover{
+    transform: scale(1.1);  
+}
